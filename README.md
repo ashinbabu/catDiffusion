@@ -3,9 +3,7 @@
 CatDiffusion is a small, educational **unconditional pixel-space DDPM** trained
 on cat images from the Oxford-IIIT Pet dataset. It implements the forward
 process, noise-prediction objective, timestep-conditioned U-Net, and reverse
-sampler directly in PyTorch. It is intentionally **not Stable Diffusion**:
-there is no text conditioning, CLIP, classifier-free guidance, latent
-autoencoder, or pretrained diffusion pipeline.
+sampler directly in PyTorch.
 
 > **Status:** the repository contains code and reproducible tooling, not
 > fabricated model weights or sample figures. Generated images and metrics in
@@ -150,8 +148,5 @@ No generated result is included here.
 ## References
 
 * Ho, Jain, and Abbeel, “Denoising Diffusion Probabilistic Models,” 2020.
-* Rombach et al., “High-Resolution Image Synthesis with Latent Diffusion
-  Models,” 2022.
 * Song et al., “Score-Based Generative Modeling through Stochastic
   Differential Equations,” 2021.
-
