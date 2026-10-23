@@ -122,11 +122,8 @@ license. The dataset is not committed to this repository.
 ## Colab
 
 The tutorial notebook is [`notebooks/CatDiffusion_Tutorial.ipynb`](./notebooks/CatDiffusion_Tutorial.ipynb).
-After publishing this repository, replace the clearly marked
-`<GITHUB_USERNAME>/<REPOSITORY>` placeholder in the install cell and add this
-badge:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<GITHUB_USERNAME>/<REPOSITORY>/blob/main/notebooks/CatDiffusion_Tutorial.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashinbabu/catDiffusion/blob/main/notebooks/CatDiffusion_Tutorial.ipynb)
 
 Colab free-tier availability, memory, and session duration vary. The notebook
 offers a quick demo/full-training switch, saves to local storage, and only
