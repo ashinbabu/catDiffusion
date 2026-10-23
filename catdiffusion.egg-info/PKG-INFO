@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: catdiffusion
+Version: 0.1.0
+Summary: An educational pixel-space DDPM trained on cat images.
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: torch>=2.0
+Requires-Dist: torchvision>=0.15
+Requires-Dist: Pillow>=9.0
+Requires-Dist: numpy>=1.23
+Requires-Dist: matplotlib>=3.6
+Requires-Dist: tqdm>=4.64
+Requires-Dist: PyYAML>=6.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7; extra == "dev"
+Requires-Dist: nbformat>=5.7; extra == "dev"
+Dynamic: license-file

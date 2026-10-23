@@ -1,0 +1,11 @@
+image_size: 64
+batch_size: 32
+base_channels: 32
+diffusion_steps: 300
+schedule: cosine
+epochs: 50
+max_images: null
+max_steps: null
+learning_rate: 0.0002
+num_workers: 2
+seed: 42

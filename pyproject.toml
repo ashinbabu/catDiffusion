@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "catdiffusion"
+version = "0.1.0"
+description = "An educational pixel-space DDPM trained on cat images."
+requires-python = ">=3.10"
+dependencies = ["torch>=2.0", "torchvision>=0.15", "Pillow>=9.0", "numpy>=1.23", "matplotlib>=3.6", "tqdm>=4.64", "PyYAML>=6.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "nbformat>=5.7"]
+
+[tool.setuptools.packages.find]
+include = ["catdiffusion*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
